@@ -6,10 +6,15 @@ a simple implementation of a rover using raspberry pi and PiFace
 
 prerequisite
 ============
+https://github.com/thomasmacpherson/piface
 
+OS
+==
+Raspbian
 
 demo
 ====
+```
 pi@raspberrypi ~/git/roverpi/trunk/roverpi $ sudo modprobe spi_bcm2708
 pi@raspberrypi ~/git/roverpi/trunk/roverpi $ sudo python
 Python 2.7.3 (default, Jan 13 2013, 11:20:46) 
@@ -20,3 +25,4 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> x.forward()
 >>> x.right()
 >>> x.left()
+```
