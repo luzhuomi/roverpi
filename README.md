@@ -16,6 +16,11 @@ demo
 ====
 ```
 pi@raspberrypi ~/git/roverpi/trunk/roverpi $ sudo modprobe spi_bcm2708
+
+# stdin keyboard controller via up, left and right arrow keys.
+pi@raspberrypi ~/git/roverpi/trunk/roverpi $ sudo python main.py
+
+# or calling the functions directly
 pi@raspberrypi ~/git/roverpi/trunk/roverpi $ sudo python
 Python 2.7.3 (default, Jan 13 2013, 11:20:46) 
 [GCC 4.6.3] on linux2
